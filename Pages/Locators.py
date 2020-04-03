@@ -33,5 +33,7 @@ class Locators:
     # HomeTabLocators
     homelink = "/html/body/div/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[1]/td[2]/font/a"
 
-    #
-
+    # FlightBookingLocators
+    passenger_count_xpath = "//select[@name='passCount']"
+    trip_type_xpath = "//input[@value='oneway']"
+    
