@@ -11,7 +11,7 @@ from drivers.webdriver import WebDriverFactory
 from Testdata import testdata as td
 
 
-class LoginUser(unittest.TestCase):
+class TestFlight(unittest.TestCase):
 
     @classmethod
     def setUp(cls) -> None:
@@ -22,7 +22,7 @@ class LoginUser(unittest.TestCase):
         # cls.driver.implicitly_wait(20)
         # cls.driver.maximize_window()
 
-    def test_login_user(self):
+    def test1_flight_booking(self):
         driver = self.driver
         # driver.get("http://newtours.demoaut.com/")
         login = SignOn(driver)

@@ -9,9 +9,9 @@ def testData(attribute):
     return testDataJsonFile[attribute]
 
 
-print(testData("username"))
-print(testData("password"))
-print(testData("environment"))
+# print(testData("username"))
+# print(testData("password"))
+# print(testData("environment"))
 print(testData("browser"))
-print(testData("passconfirm"))
-print(testData("email"))
+# print(testData("passconfirm"))
+# print(testData("email"))

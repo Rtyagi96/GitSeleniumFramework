@@ -1,4 +1,4 @@
-class Locators:
+class Locators(object):
     # HomePageLocators
     signOn_xpath = "/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td[1]/a"
     register_xpath = "/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td[2]/a"

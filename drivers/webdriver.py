@@ -29,11 +29,13 @@ class WebDriverFactory:
         """
 
         if self.browser == "firefox":
-            driver = webdriver.Firefox()
+            driver = webdriver.Firefox(executable_path= r"C:\Users\Rohit\PycharmProjects\SeleniumFramework\drivers"
+                                                        r"\geckodriver-v0.26.0-win64\geckodriver.exe")
 
         elif self.browser == "chrome":
             # Set Chrome driver
-            driverLocation = r"C:\Users\Rohit\PycharmProjects\SeleniumProject\Browser\chromedriver_win32\chromedriver.exe"
+            driverLocation = r"C:\Users\Rohit\PycharmProjects\SeleniumProject\Browser\chromedriver_win32\chromedriver" \
+                             r".exe "
             os.environ["webdriver.chrome.driver"] = driverLocation
             driver = webdriver.Chrome(driverLocation)
             driver.set_window_size(1366, 768)

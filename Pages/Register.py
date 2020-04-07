@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from Pages.Locators import Locators
 
 
-class RegisterUser:
+class RegisterUser(object):
 
     def __init__(self, driver):
         self.driver = driver

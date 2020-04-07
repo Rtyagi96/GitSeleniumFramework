@@ -1,17 +1,17 @@
-import driver as driver
-from selenium import webdriver
+# import driver as driver
+# from selenium import webdriver
 import unittest
-import time
+# import time
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
-from Pages.Register import RegisterUser
-from selenium.webdriver.support import expected_conditions as EC
+# from selenium.webdriver.support.wait import WebDriverWait
+# from Pages.Register import RegisterUser
+# from selenium.webdriver.support import expected_conditions as EC
 from Pages.SignOn import SignOn
 from drivers.webdriver import WebDriverFactory
 from Testdata import testdata as td
 
 
-class LoginUser(unittest.TestCase):
+class TestLoginUser(unittest.TestCase):
 
     @classmethod
     def setUp(cls) -> None:
@@ -22,7 +22,7 @@ class LoginUser(unittest.TestCase):
         # cls.driver.implicitly_wait(20)
         # cls.driver.maximize_window()
 
-    def test_login_user(self):
+    def test1_login_user(self):
         driver = self.driver
         #driver.get("http://newtours.demoaut.com/")
         login = SignOn(driver)
@@ -33,6 +33,11 @@ class LoginUser(unittest.TestCase):
                                                       "4]/td/table/tbody/tr/td[2]/table/tbody/tr["
                                                       "5]/td/form/table/tbody/tr[1]/td/font/font/b/font/font").text 
         self.assertEqual("Flight Details", flight_details, "Login Un-Successful")
+        self.assertTrue(True)
+
+    def test2_login_failed(self):
+        print("Login failed for the user")
+        self.assertTrue(True)
         
     @classmethod
     def tearDownClass(cls) -> None:
