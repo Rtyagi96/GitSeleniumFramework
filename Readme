@@ -1,0 +1,14 @@
+This is a selenium test automation framework developed in Python. It uses the following features
+1. Selenium
+2. Page object model
+3. Excel and JSON data driven
+4. Selenium Utils for enhance element interaction and screen shot taking capability
+
+
+Pre requisites
+1. Install PyCharm
+2. Python 3.6
+4. Following packages should be installed
+   pip install selenium
+   pip install selenium-utils
+   pip install openpyxl

@@ -1,0 +1,7 @@
+# Created by to ignore following files from commiting into GIT.
+*.log
+*.json
+.idea/
+.pytest_cache/
+venv/
+*.png

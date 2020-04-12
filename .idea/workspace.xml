@@ -3,14 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="3d69232b-ceea-4c50-a8b3-bf2e3ea2e741" name="Default Changelist" comment="updated reference from json">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/Util.json" beforeDir="false" afterPath="$PROJECT_DIR$/Config/Util.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Register.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Register.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/TestFlightBooking.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_FlightBooking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/TestLogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_Login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/TestRegister.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_Register.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testdata/testdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testdata/testdata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/webdriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/0244d783-1ad2-429f-a8c4-37be36195fae-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/1f8b9fc3-3a1e-453e-8fc1-47053a2bd87a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/42587e34-9135-4235-9470-523f50757166-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/8ac669cb-6229-4047-863c-3270facd2590-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/b7f9b24e-4746-49bb-9890-d15d592ef88f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/cee56d90-329a-4c2c-94f4-90251b0dff5c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/f7554128-2248-4e6c-9202-93118e73af69-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/read_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/read_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,19 +48,26 @@
       <recent name="C:\Users\Rohit\PycharmProjects\SeleniumFramework\Config" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_Register.TestNewTour">
-    <configuration name="Unittests for test_Register.NewTour" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.testdata">
+    <configuration name="testdata" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testdata" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Register.NewTour&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Testdata/testdata.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests for test_Register.NewTour.test1_register_new_user" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -119,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.testdata" />
         <item itemvalue="Python tests.Unittests for test_Register.TestNewTour" />
         <item itemvalue="Python tests.Unittests for test_Register.TestNewTour.test2_register_invalid" />
         <item itemvalue="Python tests.Unittests in test_Register.py" />
         <item itemvalue="Python tests.Unittests for test_Register.NewTour.test1_register_new_user" />
-        <item itemvalue="Python tests.Unittests for test_Register.NewTour" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +191,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="updated reference from json" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="530" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586652247057">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="530" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1586652247057" />
     <state x="424" y="7" key="CommitChangelistDialog2" timestamp="1585944621022">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -190,22 +203,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586297982857" />
-    <state width="1515" height="264" key="GridCell.Tab.0.bottom" timestamp="1586302473475">
+    <state width="1515" height="264" key="GridCell.Tab.0.bottom" timestamp="1586473472421">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="264" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586302473475" />
-    <state width="1515" height="264" key="GridCell.Tab.0.center" timestamp="1586302473475">
+    <state width="1515" height="264" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586473472421" />
+    <state width="1515" height="264" key="GridCell.Tab.0.center" timestamp="1586473472421">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="264" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586302473475" />
-    <state width="1515" height="264" key="GridCell.Tab.0.left" timestamp="1586302473475">
+    <state width="1515" height="264" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586473472421" />
+    <state width="1515" height="264" key="GridCell.Tab.0.left" timestamp="1586473472421">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="264" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586302473475" />
-    <state width="1515" height="264" key="GridCell.Tab.0.right" timestamp="1586302473475">
+    <state width="1515" height="264" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586473472421" />
+    <state width="1515" height="264" key="GridCell.Tab.0.right" timestamp="1586473472421">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="264" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586302473475" />
+    <state width="1515" height="264" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586473472421" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1585864949957">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
