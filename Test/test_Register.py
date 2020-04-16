@@ -37,7 +37,7 @@ class TestNewTour(unittest.TestCase):
         # exwait = WebDriverWait(driver, 20)
         registration_success = driver.find_element(By.XPATH, "//*[contains(text(), 'Your user name is')]").text
         print(registration_success)
-        
+
         self.assertEqual("Note: Your user name is rtyagi.", registration_success, "Registration Failed!")
         if registration_success == "Note: Your user name is rtyagi.":
             assert True

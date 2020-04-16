@@ -1,6 +1,6 @@
 {
     "environment": "http://newtours.demoaut.com/",
-    "browser": "firefox",
+    "browser": "chrome",
     "username": "rtyagi",
     "password": "Prime109",
     "passconfirm": "Prime109",
