@@ -1,8 +1,12 @@
-This is a selenium test automation framework developed in Python. It uses the following features
+This is a sample selenium test automation framework developed in Python. It uses the following features
 1. Selenium
 2. Page object model
 3. Excel and JSON data driven
 4. Selenium Utils for enhance element interaction and screen shot taking capability
+
+Pending tasks
+1. Exception handling
+2. Logging
 
 
 Pre requisites
